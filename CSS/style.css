@@ -1,0 +1,294 @@
+/* =====================================================
+   共通初期設定
+===================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #ffffff;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #eeebeb;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  /* padding-bottom: 60px; */
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  font-size: 24px;
+  display: block;
+  text-align: center;
+}
+
+
+/* =====================================================
+   ヘッダー
+===================================================== */
+.header-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-top: env(safe-area-inset-top);
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+
+.logo-text {
+  position: absolute;
+  margin-left: 50%;
+  transform: translateX(-65%);
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  color: #2a4d4f;
+  cursor: pointer;
+  white-space: nowrap;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+.menu-icon {
+  font-size: 28px;
+  color: #333;
+  cursor: pointer;
+}
+
+
+/* =====================================================
+   トリップカード＋画像スライダー
+===================================================== */
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 60px 0 56px;
+}
+
+.trip-card {
+  width: 95%;
+  max-height: 100%;
+  background: white;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-slider {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  overflow: visible;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.trip-image {
+  width: 95%;
+  max-width: 400px;
+  height: 60vh;
+  object-fit: cover;
+  border-radius: 12px; /* ← よりしっかり丸みを強調 */
+  margin-top: 10px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* ← 影を濃く & 拡張 */
+}
+
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 28px;
+  background: rgba(0, 0, 0, 0.4);
+  border: none;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 8px;
+}
+
+.next-btn {
+  right: 8px;
+}
+
+.trip-info {
+  padding: 10px;
+}
+
+.trip-info h2 {
+  font-size: 16px;
+  margin: 6px 0;
+}
+
+.trip-info p {
+  font-size: 14px;
+  color: #666;
+}
+
+
+/* =====================================================
+   旅行履歴カード（サイドバーなど）
+===================================================== */
+.trip-history {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+.history-card {
+  display: flex;
+  max-height: 160px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.history-card img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.history-info {
+  flex: 1;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.history-info h3 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.history-info p {
+  font-size: 14px;
+  color: #666;
+}
+
+
+/* =====================================================
+   スケジュール詳細表示
+===================================================== */
+.schedule-container {
+  padding: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+#tripTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2a4d4f;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+#tripDate {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.schedule-container h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #2a4d4f;
+}
+
+.trip-meta {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.trip-meta h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #1e3d3f;
+}
+
+.trip-meta p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  margin: 4px 0;
+}
+
+
+/* =====================================================
+   フッター・ナビゲーション
+===================================================== */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ccc;
+  padding: 8px 0;
+  height: 56px;
+  z-index: 1000;
+}
+
+.nav-item {
+  text-align: center;
+  font-size: 10px;
+  color: #333;
+  text-decoration: none;
+  width: 20%;
+}
+
+
+/* =====================================================
+   レスポンシブ対応
+===================================================== */
+@media (max-width: 428px) {
+  .trip-image {
+    max-height: 60vh;
+  }
+}

@@ -1,0 +1,180 @@
+/* ====================================================
+   共通画像設定（電車・往路フライト・復路フライト）
+==================================================== */
+.train-img,
+.flight-img,
+.return-img {
+  width: 100%;
+  max-width: 400px;
+  height: 180px; /* 画像の縦幅調整 */
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ====================================================
+   電車情報カード
+==================================================== */
+.train-info {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.train-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.train-details {
+  text-align: left;
+  width: 100%;
+}
+
+.train-details p {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #333;
+}
+
+
+/* ====================================================
+   駅表示（共通構成）
+==================================================== */
+.station-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.station-row .material-symbols-outlined {
+  font-size: 20px;
+  color: #555;
+}
+
+.station-label {
+  font-weight: bold;
+  color: #444;
+}
+
+
+/* ====================================================
+   往路フライトカード
+==================================================== */
+.flight-info {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.flight-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.flight-details {
+  text-align: left;
+  width: 100%;
+}
+
+.flight-details p {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #333;
+}
+
+
+/* ====================================================
+   復路フライトカード
+==================================================== */
+.return-info {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.return-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.return-details {
+  text-align: left;
+  width: 100%;
+}
+
+.return-details p {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #333;
+}
+
+
+/* ====================================================
+   ホテルカード
+==================================================== */
+.hotel-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hotel-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.hotel-gallery img {
+  width: calc(50% - 6px);
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-details p {
+  font-size: 14px;
+  margin: 6px 0;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hotel-details .material-symbols-outlined {
+  font-size: 20px;
+  color: #555;
+}
+
+
+/* ====================================================
+   レスポンシブ対応（モバイル画面）
+==================================================== */
+@media (max-width: 600px) {
+  .train-img,
+  .flight-img,
+  .return-img {
+    height: 140px;
+  }
+}

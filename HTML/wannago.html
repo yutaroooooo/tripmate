@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>TripMate - Want Go</title>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="/CSS/style.css" />
+  <link rel="stylesheet" href="/CSS/wannago.css" />
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <div class="header-content">
+    <span class="material-symbols-outlined menu-icon" onclick="history.back()">arrow_back</span>
+    <a href="/HTML/index.html" class="logo-text">TripMate</a>
+    <span class="material-symbols-outlined">list</span>
+  </div>
+
+  <main class="wantgo-main">
+    <!-- フィルターエリア（2列横並び） -->
+    <section class="filter-area">
+        <div class="filter-bar">
+      
+          <div class="filter-block">
+            <div class="filter-label">ジャンル</div>
+            <select id="filter-genre">
+              <option value="">すべて</option>  
+              <option value="沖縄そば">沖縄そば</option>
+              <option value="居酒屋">居酒屋</option>
+              <option value="アメリカン">アメリカン</option>
+              <option value="メキシカン">メキシカン</option>
+              <option value="カフェ">カフェ</option>
+              <option value="軽食">軽食</option>
+              <option value="海">海</option>
+              <option value="観光地">観光地</option>
+              <option value="ショッピング">ショッピング</option>
+              <option value="古着屋">古着屋</option>
+              <option value="その他">その他</option>
+            </select>
+          </div>
+      
+          <div class="filter-block">
+            <div class="filter-label">地域</div>
+            <select id="filter-region">
+              <option value="">すべて</option>
+              <option value="北部">北部</option>
+              <option value="中部">中部</option>
+              <option value="南部">南部</option>
+              <option value="国際通り周辺">国際通り周辺</option>
+            </select>
+          </div>
+      
+        </div>
+      </section>
+
+    <!-- スポットカードグリッド（3列表示） -->
+    <section class="spot-section">
+      <div class="spot-grid">
+        <!-- JSでスポットカードが描画される -->
+      </div>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <div id="footer-placeholder"></div>
+
+  <!-- スクリプト -->
+  <script src="/JS/script.js"></script>
+  <script src="/JS/wannago_data.js"></script>
+  <script src="/JS/wannago_render.js"></script>
+</body>
+</html>
