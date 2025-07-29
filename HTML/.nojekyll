@@ -1,0 +1,2 @@
+# 空の .nojekyll ファイルを作成してルートに追加
+touch .nojekyll
