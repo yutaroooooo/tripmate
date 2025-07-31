@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 共通コンポーネント読み込み（ヘッダーにmenu-iconが含まれるため、初期化処理と連携）
   loadComponent("/HTML/header.html", "header-placeholder", initHeaderLogic);
-  loadComponent("/HTML/footer.html", "footer-placeholder");
+  loadComponent("HTML/footer.html", "footer-placeholder");
 
   // ヘッダー読み込み後の初期化処理
   function initHeaderLogic() {
