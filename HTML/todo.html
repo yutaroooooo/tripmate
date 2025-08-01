@@ -4,16 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TripMate - My Memo</title>
-  <link rel="stylesheet" href="/CSS/style.css" />
-  <link rel="stylesheet" href="/CSS/todo.css" />
+  <link rel="stylesheet" href="../CSS/style.css" />
+  <link rel="stylesheet" href="../CSS/todo.css" />
 </head>
 <body>
 
   <!-- ヘッダー -->
   <div class="header-content">
-    <span class="material-symbols-outlined menu-icon" onclick="history.back()">arrow_back</span>
-    <span class="logo-text">TripMate</span>
-    <span class="material-symbols-outlined">checklist</span>
+    <span class="material-symbols-outlined menu-icon" id="backBtn">arrow_back</span>
+    <a href="https://yutaroooooo.github.io/tripmate" class="logo-text">TripMate</a>
   </div>
 
   <!-- メモエリア -->
@@ -24,9 +23,30 @@
   </main>
 
   <!-- フッター -->
-  <div id="footer-placeholder"></div>
+  <nav class="bottom-nav">
+    <a href="https://yutaroooooo.github.io/tripmate/" class="nav-item">
+      <span class="material-symbols-outlined">home</span>
+      <span>home</span>
+    </a>
+    <a href="wannago.html" class="nav-item">
+      <span class="material-symbols-outlined">hiking</span>
+      <span>wannago</span>
+    </a>
+    <a href="map.html" class="nav-item">
+      <span class="material-symbols-outlined">map</span>
+      <span>map</span>
+    </a>
+    <a href="todo.html" class="nav-item">
+      <span class="material-symbols-outlined">checklist</span>
+      <span>todo</span>
+    </a>
+    <a href="https://walica.jp/group/01JZZ91R0KDXXHBYDYCRDFFQ6X" class="nav-item" target="_blank" rel="noopener noreferrer">
+      <span class="material-symbols-outlined">payments</span>
+      <span>warikan</span>
+    </a>
+  </nav>
 
-  <script src="/JS/script.js"></script>
-  <script src="/JS/todo.js"></script>
+  <script src="../JS/script.js"></script>
+  <script src="../JS/todo.js"></script>
 </body>
 </html>
