@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const backBtn = document.getElementById("backBtn");
     if (backBtn) {
       backBtn.addEventListener("click", () => {
-        window.location.href = "index.html";
+        window.location.href = "https://yutaroooooo.github.io/tripmate/";
       });
     }
   
