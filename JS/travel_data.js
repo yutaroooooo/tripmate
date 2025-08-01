@@ -16,7 +16,7 @@ const travelGroups = {
             station: "成田空港駅",
             time: "7:19"
           },
-          image: "./IMG/交通機関/NEX.png"
+          image: "IMG/交通機関/NEX.png"
         },
         flight: {
           airline: "Peach Aviation",
