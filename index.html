@@ -5,54 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>TripMate</title>
 
-  <!-- Google Fonts & CSS -->
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
   <link rel="stylesheet" href="CSS/style.css" />
 </head>
-<body onload="checkPassword()">
+<body>
 
-  <!-- ヘッダー -->
-  <div class="header-content">
-    <span class="material-symbols-outlined menu-icon">menu</span>
-    <a href="https://yutaroooooo.github.io/tripmate/" class="logo-text">TripMate</a>
+  <!-- パスワードモーダル -->
+  <div id="passwordModal" class="modal">
+    <div class="modal-content">
+      <h2>TripMateへようこそ</h2>
+      <p>パスワードを入力してください</p>
+      <input type="password" id="passwordInput" placeholder="パスワード" />
+      <button onclick="submitPassword()">ログイン</button>
+      <p id="errorMessage" style="color: red;"></p>
+    </div>
   </div>
 
-  <!-- メインコンテンツ -->
-  <main>
-    <!-- ホーム画面 -->
-    <div id="homeView">
-      <div class="trip-card">
-        <div class="image-slider" onclick="location.href='HTML/travel_schedule.html?trip=okinawa'">
-          <img src="IMG/HOME/IMG_9450.jpg" alt="沖縄旅行" class="trip-image" />
-        </div>
-        <div class="trip-info">
-          <h2>🌺沖縄旅行🌺</h2>
-          <p>2025/08/10〜2025/08/14</p>
-        </div>
-      </div>
+  <!-- メインコンテンツ（初期は非表示） -->
+  <div id="mainContent" style="display: none;">
+    <div class="header-content">
+      <span class="material-symbols-outlined menu-icon">menu</span>
+      <a href="https://yutaroooooo.github.io/tripmate/" class="logo-text">TripMate</a>
     </div>
 
-    <!-- 履歴画面 -->
-    <div id="historyView" style="display: none;">
-      <div class="trip-history" onclick="location.href='HTML/travel_schedule.html?trip=okinawa'">
-        <div class="history-card">
-          <img src="IMG/HOME/IMG_9450.jpg" alt="沖縄旅行" />
-          <div class="history-info">
-            <h3>🌺沖縄旅行🌺</h3>
+    <main>
+      <div id="homeView">
+        <div class="trip-card">
+          <div class="image-slider" onclick="location.href='HTML/travel_schedule.html?trip=okinawa'">
+            <img src="IMG/HOME/IMG_9450.jpg" alt="沖縄旅行" class="trip-image" />
+          </div>
+          <div class="trip-info">
+            <h2>🌺沖縄旅行🌺</h2>
             <p>2025/08/10〜2025/08/14</p>
           </div>
         </div>
+      </div>
 
-        <div class="history-card" onclick="location.href='HTML/travel_schedule.html?trip=vietnam'">
-          <img src="IMG/HOME/vietnam.jpeg" alt="ベトナム旅行" />
-          <div class="history-info">
-            <h3>🇻🇳ベトナム旅行🇻🇳</h3>
-            <p>2024/04/29〜2024/05/03</p>
+      <div id="historyView" style="display: none;">
+        <div class="trip-history" onclick="location.href='HTML/travel_schedule.html?trip=okinawa'">
+          <div class="history-card">
+            <img src="IMG/HOME/IMG_9450.jpg" alt="沖縄旅行" />
+            <div class="history-info">
+              <h3>🌺沖縄旅行🌺</h3>
+              <p>2025/08/10〜2025/08/14</p>
+            </div>
+          </div>
+
+          <div class="history-card" onclick="location.href='HTML/travel_schedule.html?trip=vietnam'">
+            <img src="IMG/HOME/vietnam.jpeg" alt="ベトナム旅行" />
+            <div class="history-info">
+              <h3>🇻🇳ベトナム旅行🇻🇳</h3>
+              <p>2024/04/29〜2024/05/03</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
 
   <!-- フッター -->
   <nav class="bottom-nav">
