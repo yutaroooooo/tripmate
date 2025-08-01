@@ -34,63 +34,47 @@ body {
 }
 
 /* =====================================================
-   モーダル（理想のUI風）
+   モーダル（画面いっぱいに表示）
 ===================================================== */
 
 .modal {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.6); /* fallback overlay */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 9999;
 }
 
-/* ガラス風モーダル */
+/* モーダルコンテンツを画面全体に広げる */
 .modal-content {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(12px);
+  width: 100vw;
+  height: 100vh;
+  background: white;
   padding: 2em;
-  border-radius: 16px;
+  border-radius: 0; /* 角丸をなくす場合は0に */
   text-align: center;
-  width: 90%;
-  max-width: 420px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-  color: #fff;
-  font-family: 'Noto Sans JP', sans-serif;
+  box-shadow: none; /* 影をなくす場合はnoneに */
+  box-sizing: border-box;
 }
 
 /* 入力欄 */
 .modal-content input {
   width: 100%;
-  padding: 0.75em 1em;
-  margin: 1em 0;
+  padding: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
   font-size: 1em;
-  border: none;
-  border-radius: 8px;
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #333;
 }
 
 /* ボタン */
 .modal-content button {
-  padding: 0.75em 1.5em;
+  padding: 0.5em 1em;
   font-size: 1em;
-  border: none;
-  border-radius: 8px;
-  background: linear-gradient(135deg, #00bcd4, #2196f3);
-  color: white;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.modal-content button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-}
 
 
 
