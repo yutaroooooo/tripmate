@@ -16,13 +16,13 @@ const travelGroups = {
             station: "成田空港駅",
             time: "7:19"
           },
-          image: "IMG/交通機関/NEX.png"
+          image: "../IMG/交通機関/NEX.png"
         },
         flight: {
           airline: "Peach Aviation",
           flightNumber: "MM505",
           aircraft: "A302",
-          image: "IMG/交通機関/PeachAviation.png",
+          image: "../IMG/交通機関/PeachAviation.png",
           schedule: {
             departure: {
               airport: "東京(成田)第1ターミナル",
@@ -41,7 +41,7 @@ const travelGroups = {
           airline: "Peach Aviation",
           flightNumber: "MM504",
           aircraft: "A302 Neo",
-          image: "IMG/交通機関/PeachAviation.png", // ← 往路と同じ画像
+          image: "../IMG/交通機関/PeachAviation.png", // ← 往路と同じ画像
           schedule: {
             departure: {
               airport: "沖縄(那覇)",
@@ -62,10 +62,10 @@ const travelGroups = {
         checkin: "15:00",
         checkout: "11:00",
         images: [
-          "IMG/ホテル/リビング.png",
-          "IMG/ホテル/リビング2.png",
-          "IMG/ホテル/バルコニー.png",
-          "IMG/ホテル/外観.png"
+          "../IMG/ホテル/リビング.png",
+          "../IMG/ホテル/リビング2.png",
+          "../IMG/ホテル/バルコニー.png",
+          "../IMG/ホテル/外観.png"
         ]
       }
     },
@@ -79,7 +79,7 @@ const travelGroups = {
           airline: "Vietnam Airlines",
           flightNumber: "VN310",
           aircraft: "Airbus A350",
-          image: "IMG/交通機関/VietnamAirlines.png",
+          image: "../IMG/交通機関/VietnamAirlines.png",
           schedule: {
             departure: {
               airport: "東京(成田)第1ターミナル",
@@ -98,7 +98,7 @@ const travelGroups = {
           airline: "Vietnam Airlines",
           flightNumber: "VN311",
           aircraft: "Airbus A350",
-          image: "IMG/交通機関/VietnamAirlines.png",
+          image: "../IMG/交通機関/VietnamAirlines.png",
           schedule: {
             departure: {
               airport: "ハノイ(ノイバイ空港)",
@@ -119,9 +119,9 @@ const travelGroups = {
         checkin: "14:00",
         checkout: "12:00",
         images: [
-          "IMG/HOTEL/vietnam1.jpg",
-          "IMG/HOTEL/vietnam2.jpg",
-          "IMG/HOTEL/vietnam3.jpg"
+          "../IMG/HOTEL/vietnam1.jpg",
+          "../IMG/HOTEL/vietnam2.jpg",
+          "../IMG/HOTEL/vietnam3.jpg"
         ]
       }
     }
