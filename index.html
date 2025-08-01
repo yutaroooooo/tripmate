@@ -3,20 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-
   <title>TripMate</title>
+
+  <!-- Google Fonts & CSS -->
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
   <link rel="stylesheet" href="CSS/style.css" />
 </head>
-<body>
+<body onload="checkPassword()">
 
+  <!-- ヘッダー -->
   <div class="header-content">
     <span class="material-symbols-outlined menu-icon">menu</span>
     <a href="https://yutaroooooo.github.io/tripmate/" class="logo-text">TripMate</a>
-    
   </div>
-  
 
+  <!-- メインコンテンツ -->
   <main>
     <!-- ホーム画面 -->
     <div id="homeView">
@@ -33,30 +34,31 @@
 
     <!-- 履歴画面 -->
     <div id="historyView" style="display: none;">
-        <div class="trip-history" onclick="location.href='HTML/travel_schedule.html?trip=okinawa'">
-            <div class="history-card">
-              <img src="IMG/HOME/IMG_9450.jpg" alt="沖縄旅行" />
-              <div class="history-info">
-                <h3>🌺沖縄旅行🌺</h3>
-                <p>2025/08/10〜2025/08/14</p>
-              </div>
-            </div>
-          
-            <div class="history-card" onclick="location.href='HTML/travel_schedule.html?trip=vietnam'">
-              <img src="IMG/HOME/vietnam.jpeg" alt="ベトナム旅行" />
-              <div class="history-info">
-                <h3>🇻🇳ベトナム旅行🇻🇳</h3>
-                <p>2024/04/29〜2024/05/03</p>
-              </div>
-            </div>
+      <div class="trip-history" onclick="location.href='HTML/travel_schedule.html?trip=okinawa'">
+        <div class="history-card">
+          <img src="IMG/HOME/IMG_9450.jpg" alt="沖縄旅行" />
+          <div class="history-info">
+            <h3>🌺沖縄旅行🌺</h3>
+            <p>2025/08/10〜2025/08/14</p>
           </div>
-          
+        </div>
+
+        <div class="history-card" onclick="location.href='HTML/travel_schedule.html?trip=vietnam'">
+          <img src="IMG/HOME/vietnam.jpeg" alt="ベトナム旅行" />
+          <div class="history-info">
+            <h3>🇻🇳ベトナム旅行🇻🇳</h3>
+            <p>2024/04/29〜2024/05/03</p>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
+  <!-- フッター -->
   <div id="footer-placeholder"></div>
 
-  <script src="JS/script.js"></script>
+  <!-- JavaScript -->
   <script src="JS/auth.js"></script>
+  <script src="JS/script.js"></script>
 </body>
 </html>
