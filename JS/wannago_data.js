@@ -194,7 +194,13 @@ const wannagoSpots = [
         image: "../IMG/沖縄フィード/波上宮.png",
         tags: ["観光地", "国際通り周辺"],
         map: "https://www.google.com/maps/search/?api=1&query=波上宮"
+      },
+      {
+        id: "goyatempura",
+        title: "呉屋てんぷら屋",
+        image: "../IMG/沖縄フィード/呉屋てんぷら.png",
+        tags: ["軽食", "国際通り周辺"],
+        map: "https://www.google.com/maps/search/?api=1&query=呉屋てんぷら屋"
       }
-      
   ];
   
