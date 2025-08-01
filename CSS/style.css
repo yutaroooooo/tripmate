@@ -53,7 +53,7 @@ body {
   background: white;
   box-sizing: border-box;
   padding: 2em;
-  padding-top: 15vh; /* ← ここで縦位置を調整 */
+  padding-top: 30vh; /* ← ここで縦位置を調整 */
 
   display: flex;
   flex-direction: column;
