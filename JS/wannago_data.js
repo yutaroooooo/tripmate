@@ -118,13 +118,6 @@ const wannagoSpots = [
       tags: ["沖縄そば", "国際通り周辺"],
       map: "https://www.google.com/maps/search/?api=1&query=OKINAWASOBAEIBUN"
     },
-    {
-        id: "goyatempura",
-        title: "呉屋てんぷら屋",
-        image: "../IMG/沖縄フィード/○.png",
-        tags: ["軽食", "国際通り周辺"],
-        map: "https://www.google.com/maps/search/?api=1&query=呉屋てんぷら屋"
-      },
       {
         id: "americanvillage",
         title: "アメリカンビレッジ",
