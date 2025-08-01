@@ -1,5 +1,5 @@
 function checkPassword() {
-    const correctPassword = "tripmate2025";
+    const correctPassword = "32trip2025";
   
     // すでに認証済みならスキップ
     if (localStorage.getItem("tripmate_authenticated") === "true") {
