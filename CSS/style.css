@@ -47,21 +47,25 @@ body {
   z-index: 9999;
 }
 
-/* モーダルコンテンツを画面全体に広げる */
 .modal-content {
   width: 100vw;
   height: 100vh;
   background: white;
-  padding: 2em;
-  border-radius: 0; /* 角丸をなくす場合は0に */
-  text-align: center;
-  box-shadow: none; /* 影をなくす場合はnoneに */
   box-sizing: border-box;
+  padding: 2em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
 }
 
 /* 入力欄 */
 .modal-content input {
   width: 100%;
+  max-width: 300px;
   padding: 0.5em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -74,6 +78,7 @@ body {
   font-size: 1em;
   cursor: pointer;
 }
+
 
 
 
