@@ -376,6 +376,34 @@ const wannagoSpots = [
         image: "../IMG/沖縄フィード/国頭港食堂.png",
         tags: ["食堂", "北部"],
         map: "https://www.google.com/maps/search/?api=1&query=国頭港食堂"
+      },
+      {
+        id: "captainkangaroo",
+        title: "キャプテンカンガルー",
+        image: "../IMG/沖縄フィード/キャプテンカンガルー.png",
+        tags: ["アメリカン", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=キャプテンカンガルー"
+      },
+      {
+        id: "hanagasashokudo",
+        title: "花笠食堂",
+        image: "../IMG/沖縄フィード/花笠食堂.png",
+        tags: ["食堂", "国際通り周辺"],
+        map: "https://www.google.com/maps/search/?api=1&query=花笠食堂"
+      },
+      {
+        id: "kaiyoshokudo",
+        title: "海洋食堂",
+        image: "../IMG/沖縄フィード/海洋食堂.png",
+        tags: ["食堂", "南部"],
+        map: "https://www.google.com/maps/search/?api=1&query=海洋食堂"
+      },
+      {
+        id: "keishokuruby",
+        title: "軽食の店ルビー",
+        image: "../IMG/沖縄フィード/軽食の店ルビー.png",
+        tags: ["食堂", "南部"],
+        map: "https://www.google.com/maps/search/?api=1&query=軽食の店ルビー"
       }
   ];
   
