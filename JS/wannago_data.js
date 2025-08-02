@@ -201,6 +201,13 @@ const wannagoSpots = [
         image: "../IMG/沖縄フィード/いつでも朝ごはん.png",
         tags: ["朝食", "国際通り周辺"],
         map: "https://www.google.com/maps/search/?api=1&query=いつでも朝ごはん国際通り"
+      },
+      {
+        id: "bettergirl",
+        title: "BETTERGIRL",
+        image: "../IMG/沖縄フィード/BETTERGIRL.png",
+        tags: ["朝食", "国際通り周辺"],
+        map: "https://www.google.com/maps/search/?api=1&query=BETTERGIRL"
       }
   ];
   
