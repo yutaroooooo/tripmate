@@ -215,6 +215,13 @@ const wannagoSpots = [
         image: "../IMG/沖縄フィード/AIENBAKERY.png",
         tags: ["朝食", "南部"],
         map: "https://www.google.com/maps/search/?api=1&query=AIENBAKERY"
+      },
+      {
+        id: "panilani",
+        title: "パニラニ",
+        image: "../IMG/沖縄フィード/パニラニ.png",
+        tags: ["朝食", "中部"],
+        map: "https://www.google.com/maps/search/?api=1&query=ハワイアンパンケーキハウスパニラニ"
       }
   ];
   
