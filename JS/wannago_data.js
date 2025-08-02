@@ -229,6 +229,13 @@ const wannagoSpots = [
         image: "../IMG/沖縄フィード/浜辺の茶屋.png",
         tags: ["カフェ", "南部"],
         map: "https://www.google.com/maps/search/?api=1&query=浜辺の茶屋"
+      },
+      {
+        id: "marutama",
+        title: "味噌めしやまるたま",
+        image: "../IMG/沖縄フィード/味噌めしやまるたま.png",
+        tags: ["朝食", "国際通り周辺"],
+        map: "https://www.google.com/maps/search/?api=1&query=味噌めしやまるたま"
       }
   ];
   
