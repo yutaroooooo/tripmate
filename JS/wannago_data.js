@@ -194,6 +194,13 @@ const wannagoSpots = [
         image: "../IMG/沖縄フィード/呉屋てんぷら.png",
         tags: ["軽食", "国際通り周辺"],
         map: "https://www.google.com/maps/search/?api=1&query=呉屋てんぷら屋"
+      },
+      {
+        id: "asagohan",
+        title: "いつでも朝ごはん国際通り",
+        image: "../IMG/沖縄フィード/いつでも朝ごはん.png",
+        tags: ["朝食", "国際通り周辺"],
+        map: "https://www.google.com/maps/search/?api=1&query=いつでも朝ごはん国際通り"
       }
   ];
   
