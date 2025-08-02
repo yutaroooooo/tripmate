@@ -404,6 +404,34 @@ const wannagoSpots = [
         image: "../IMG/沖縄フィード/軽食の店ルビー.png",
         tags: ["食堂", "南部"],
         map: "https://www.google.com/maps/search/?api=1&query=軽食の店ルビー"
+      },
+      {
+        id: "yataimura",
+        title: "国際通り屋台村",
+        image: "../IMG/沖縄フィード/国際通り屋台村.png",
+        tags: ["居酒屋", "国際通り周辺"],
+        map: "https://www.google.com/maps/search/?api=1&query=国際通り屋台村"
+      },
+      {
+        id: "orion",
+        title: "島唄ライブ沖縄民謡居酒屋ORION",
+        image: "../IMG/沖縄フィード/島唄ライブ沖縄民謡居酒屋ORION.png",
+        tags: ["居酒屋", "国際通り周辺"],
+        map: "https://www.google.com/maps/search/?api=1&query=島唄ライブ沖縄民謡居酒屋ORION"
+      },
+      {
+        id: "kushinakama",
+        title: "串ナカマ",
+        image: "../IMG/沖縄フィード/串ナカマ.png",
+        tags: ["居酒屋", "国際通り周辺"],
+        map: "https://www.google.com/maps/search/?api=1&query=串ナカマ"
+      },
+      {
+        id: "tareya",
+        title: "垂れ屋",
+        image: "../IMG/沖縄フィード/垂れ屋.png",
+        tags: ["居酒屋", "国際通り周辺"],
+        map: "https://www.google.com/maps/search/?api=1&query=垂れ屋"
       }
   ];
   
