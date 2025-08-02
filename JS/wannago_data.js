@@ -243,6 +243,13 @@ const wannagoSpots = [
         image: "../IMG/沖縄フィード/やんばる食堂.png",
         tags: ["朝食", "南部"],
         map: "https://www.google.com/maps/search/?api=1&query=やんばる食堂"
+      },
+      {
+        id: "ufuya",
+        title: "百年古家大家うふやー",
+        image: "../IMG/沖縄フィード/百年古家大家うふやー.png",
+        tags: ["沖縄そば", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=百年古家大家うふやー"
       }
   ];
   
