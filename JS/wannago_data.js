@@ -355,6 +355,27 @@ const wannagoSpots = [
         image: "../IMG/沖縄フィード/運天森園地.png",
         tags: ["観光地", "北部"],
         map: "https://www.google.com/maps/search/?api=1&query=運天森園地"
+      },
+      {
+        id: "minatoshokudo",
+        title: "みなと食堂",
+        image: "../IMG/沖縄フィード/みなと食堂.png",
+        tags: ["食堂","沖縄そば", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=みなと食堂本部町"
+      },
+      {
+        id: "maedashokudo",
+        title: "前田食堂",
+        image: "../IMG/沖縄フィード/前田食堂.png",
+        tags: ["食堂","沖縄そば", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=前田食堂"
+      },
+      {
+        id: "kunigamiminato",
+        title: "国頭港食堂",
+        image: "../IMG/沖縄フィード/国頭港食堂.png",
+        tags: ["食堂", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=国頭港食堂"
       }
   ];
   
