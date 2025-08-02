@@ -306,6 +306,55 @@ const wannagoSpots = [
         image: "../IMG/沖縄フィード/瀬底ビーチ.png",
         tags: ["海", "北部"],
         map: "https://www.google.com/maps/search/?api=1&query=瀬底ビーチ"
+      },
+      {
+        id: "okumabeach",
+        title: "オクマビーチ",
+        image: "../IMG/沖縄フィード/オクマビーチ.png",
+        tags: ["海", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=オクマビーチ"
+      },
+      {
+        id: "ryukyumura",
+        title: "琉球村",
+        image: "../IMG/沖縄フィード/琉球村.png",
+        tags: ["観光地", "中部"],
+        map: "https://www.google.com/maps/search/?api=1&query=琉球村"
+      },
+      {
+        id: "kayauchibanta",
+        title: "茅打バンタ",
+        image: "../IMG/沖縄フィード/茅打バンタ.png",
+        tags: ["観光地", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=茅打バンタ"
+      },
+      {
+        id: "emeraldbeach",
+        title: "エメラルドビーチ",
+        image: "../IMG/沖縄フィード/エメラルドビーチ.png",
+        tags: ["海", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=エメラルドビーチ"
+      },
+      {
+        id: "fruitland",
+        title: "OKINAWAフルーツらんど",
+        image: "../IMG/沖縄フィード/OKINAWAフルーツらんど.png",
+        tags: ["観光地", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=OKINAWAフルーツらんど"
+      },
+      {
+        id: "uppamabeach",
+        title: "ウッパマビーチ",
+        image: "../IMG/沖縄フィード/ウッパマビーチ.png",
+        tags: ["海", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=ウッパマビーチ"
+      },
+      {
+        id: "untemorienchi",
+        title: "運天森園地",
+        image: "../IMG/沖縄フィード/運天森園地.png",
+        tags: ["観光地", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=運天森園地"
       }
   ];
   
