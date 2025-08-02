@@ -222,6 +222,13 @@ const wannagoSpots = [
         image: "../IMG/沖縄フィード/パニラニ.png",
         tags: ["朝食", "中部"],
         map: "https://www.google.com/maps/search/?api=1&query=ハワイアンパンケーキハウスパニラニ"
+      },
+      {
+        id: "hamayachaya",
+        title: "浜辺の茶屋",
+        image: "../IMG/沖縄フィード/浜辺の茶屋.png",
+        tags: ["カフェ", "南部"],
+        map: "https://www.google.com/maps/search/?api=1&query=浜辺の茶屋"
       }
   ];
   
