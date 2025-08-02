@@ -236,6 +236,13 @@ const wannagoSpots = [
         image: "../IMG/沖縄フィード/味噌めしやまるたま.png",
         tags: ["朝食", "国際通り周辺"],
         map: "https://www.google.com/maps/search/?api=1&query=味噌めしやまるたま"
+      },
+      {
+        id: "yanbarushokudou",
+        title: "やんばる食堂",
+        image: "../IMG/沖縄フィード/やんばる食堂.png",
+        tags: ["朝食", "南部"],
+        map: "https://www.google.com/maps/search/?api=1&query=やんばる食堂"
       }
   ];
   
