@@ -250,6 +250,62 @@ const wannagoSpots = [
         image: "../IMG/沖縄フィード/百年古家大家うふやー.png",
         tags: ["沖縄そば", "北部"],
         map: "https://www.google.com/maps/search/?api=1&query=百年古家大家うふやー"
+      },
+      {
+        id: "zanpamisaki",
+        title: "残波岬",
+        image: "../IMG/沖縄フィード/残波岬.png",
+        tags: ["観光地", "中部"],
+        map: "https://www.google.com/maps/search/?api=1&query=残波岬"
+      },
+      {
+        id: "manzamou",
+        title: "万座毛",
+        image: "../IMG/沖縄フィード/万座毛.png",
+        tags: ["観光地", "中部"],
+        map: "https://www.google.com/maps/search/?api=1&query=万座毛"
+      },
+      {
+        id: "kouribeach",
+        title: "古宇利ビーチ",
+        image: "../IMG/沖縄フィード/古宇利ビーチ.png",
+        tags: ["海", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=古宇利ビーチ"
+      },
+      {
+        id: "heartrock",
+        title: "ハートロック",
+        image: "../IMG/沖縄フィード/ハートロック.png",
+        tags: ["観光地", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=ハートロック"
+      },
+      {
+        id: "hedomisaki",
+        title: "辺戸岬",
+        image: "../IMG/沖縄フィード/辺戸岬.png",
+        tags: ["観光地", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=辺戸岬"
+      },
+      {
+        id: "nagopinepark",
+        title: "ナゴパイナップルパーク",
+        image: "../IMG/沖縄フィード/ナゴパイナップルパーク.png",
+        tags: ["観光地", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=ナゴパイナップルパーク"
+      },
+      {
+        id: "nakijinnjoato",
+        title: "今帰仁城跡",
+        image: "../IMG/沖縄フィード/今帰仁城跡.png",
+        tags: ["観光地", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=今帰仁城跡"
+      },
+      {
+        id: "sesokobeach",
+        title: "瀬底ビーチ",
+        image: "../IMG/沖縄フィード/瀬底ビーチ.png",
+        tags: ["海", "北部"],
+        map: "https://www.google.com/maps/search/?api=1&query=瀬底ビーチ"
       }
   ];
   
