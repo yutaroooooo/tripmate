@@ -506,7 +506,7 @@ const wannagoSpots = [
     {
       id: "wts",
       title: "What'sthestory?沖縄",
-      image: "../IMG/沖縄フィード/What'sthestory?.png",
+      image: "../IMG/沖縄フィード/What'sthestory.png",
       tags: ["カフェ", "朝食", "居酒屋", "中部"],
       map: "https://www.google.com/maps/search/?api=1&query=What'sthestory?沖縄"
     },
@@ -694,7 +694,7 @@ const wannagoSpots = [
     {
       id: "tamaya",
       title: "そば処玉家そば南城市大里古堅",
-      image: "../IMG/沖縄フィード/玉屋そば.png",
+      image: "../IMG/沖縄フィード/沖縄そば玉家.png",
       tags: ["沖縄そば", "南部"],
       map: "https://www.google.com/maps/search/?api=1&query=そば処玉家そば南城市大里古堅"
     }
