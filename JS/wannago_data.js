@@ -432,6 +432,271 @@ const wannagoSpots = [
         image: "../IMG/沖縄フィード/垂れ屋.png",
         tags: ["居酒屋", "国際通り周辺"],
         map: "https://www.google.com/maps/search/?api=1&query=垂れ屋"
-      }
+      },
+    {
+      id: "urizun",
+      title: "うりずん国際通り",
+      image: "../IMG/沖縄フィード/うりずん.png",
+      tags: ["居酒屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=うりずん国際通り"
+    },
+    {
+      id: "uchina",
+      title: "うちなー家国際通り",
+      image: "../IMG/沖縄フィード/うちなー家.png",
+      tags: ["居酒屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=うちなー家国際通り"
+    },
+    {
+      id: "matetsu",
+      title: "酒場まてつ",
+      image: "../IMG/沖縄フィード/酒場まてつ.png",
+      tags: ["居酒屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=酒場まてつ"
+    },
+    {
+      id: "gajuya",
+      title: "我自由家",
+      image: "../IMG/沖縄フィード/我自由家.png",
+      tags: ["居酒屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=我自由家"
+    },
+    {
+      id: "muto",
+      title: "むとう国際通り",
+      image: "../IMG/沖縄フィード/むとう.png",
+      tags: ["居酒屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=むとう国際通り"
+    },
+    {
+      id: "tenngoku",
+      title: "天国酒場",
+      image: "../IMG/沖縄フィード/天国酒場.png",
+      tags: ["居酒屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=天国酒場"
+    },
+    {
+      id: "adachiya",
+      title: "足立屋国際通り",
+      image: "../IMG/沖縄フィード/足立屋.png",
+      tags: ["居酒屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=足立屋国際通り"
+    },
+    {
+      id: "nakama",
+      title: "なかま商店国際通り",
+      image: "../IMG/沖縄フィード/なかま商店.png",
+      tags: ["居酒屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=なかま商店国際通り"
+    },
+    {
+      id: "cafeyamagame",
+      title: "カフェやまがめ",
+      image: "../IMG/沖縄フィード/カフェやまがめ.png",
+      tags: ["カフェ", "北部"],
+      map: "https://www.google.com/maps/search/?api=1&query=カフェやまがめ"
+    },
+    {
+      id: "kingside",
+      title: "キングサイド沖縄",
+      image: "../IMG/沖縄フィード/kingsideBREAKFASTandBURGERS.png",
+      tags: ["カフェ", "朝食", "中部", "アメリカン"],
+      map: "https://www.google.com/maps/search/?api=1&query=キングサイド沖縄"
+    },
+    {
+      id: "wts",
+      title: "What'sthestory?沖縄",
+      image: "../IMG/沖縄フィード/What'sthestory?.png",
+      tags: ["カフェ", "朝食", "居酒屋", "中部"],
+      map: "https://www.google.com/maps/search/?api=1&query=What'sthestory?沖縄"
+    },
+    {
+      id: "yachimunnsisa",
+      title: "やちむん喫茶シーサー園",
+      image: "../IMG/沖縄フィード/やちむん喫茶シーサー園.png",
+      tags: ["カフェ", "北部"],
+      map: "https://www.google.com/maps/search/?api=1&query=やちむん喫茶シーサー園"
+    },
+    {
+      id: "anettai",
+      title: "亜熱帯茶屋",
+      image: "../IMG/沖縄フィード/亜熱帯茶屋.png",
+      tags: ["カフェ", "北部"],
+      map: "https://www.google.com/maps/search/?api=1&query=亜熱帯茶屋"
+    },
+    {
+      id: "modica",
+      title: "MODICA沖縄",
+      image: "../IMG/沖縄フィード/MODICA.png",
+      tags: ["カフェ", "南部"],
+      map: "https://www.google.com/maps/search/?api=1&query=MODICA沖縄"
+    },
+    {
+      id: "alv",
+      title: "ALONGVACATION沖縄",
+      image: "../IMG/沖縄フィード/ALONGVACATION.png",
+      tags: ["カフェ", "朝食", "国際通り周辺", "アメリカン"],
+      map: "https://www.google.com/maps/search/?api=1&query=ALONGVACATION沖縄"
+    },
+    {
+      id: "cp",
+      title: "COFFEEPEOPLE沖縄",
+      image: "../IMG/沖縄フィード/coffeepeople.png",
+      tags: ["カフェ", "中部"],
+      map: "https://www.google.com/maps/search/?api=1&query=COFFEEPEOPLE沖縄"
+    },
+    {
+      id: "pizzakissa",
+      title: "ピザ喫茶花人逢",
+      image: "../IMG/沖縄フィード/ピザ喫茶花人逢.png",
+      tags: ["カフェ", "アメリカン", "北部"],
+      map: "https://www.google.com/maps/search/?api=1&query=ピザ喫茶花人逢"
+    },
+    {
+      id: "makabechina",
+      title: "茶処真壁ちなー",
+      image: "../IMG/沖縄フィード/茶処真壁ちなー.png",
+      tags: ["沖縄そば", "南部"],
+      map: "https://www.google.com/maps/search/?api=1&query=茶処真壁ちなー"
+    },
+    {
+      id: "yamaka",
+      title: "ヤマカスタンド",
+      image: "../IMG/沖縄フィード/ヤマカスタンド.png",
+      tags: ["カフェ", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=ヤマカスタンド"
+    },  {
+      id: "nahaereji",
+      title: "那覇哀歌",
+      image: "../IMG/沖縄フィード/那覇哀歌.png",
+      tags: ["居酒屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=那覇哀歌"
+    },
+    {
+      id: "koyaji",
+      title: "パーラー小やじ",
+      image: "../IMG/沖縄フィード/パーラー小やじ.png",
+      tags: ["居酒屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=パーラー小やじ"
+    },
+    {
+      id: "kotonoha",
+      title: "コトノハ・mogmog食堂",
+      image: "../IMG/沖縄フィード/コトノハ・mogmog食堂.png",
+      tags: ["食堂", "居酒屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=コトノハ・mogmog食堂"
+    },
+    {
+      id: "aw",
+      title: "AmericanWAVE沖縄",
+      image: "../IMG/沖縄フィード/AmericanWAVE.png",
+      tags: ["古着屋", "南部"],
+      map: "https://www.google.com/maps/search/?api=1&query=AmericanWAVE沖縄"
+    },
+    {
+      id: "ad",
+      title: "americandepot",
+      image: "../IMG/沖縄フィード/americandepot.png",
+      tags: ["古着屋", "中部"],
+      map: "https://www.google.com/maps/search/?api=1&query=americandepot"
+    },
+    {
+      id: "timemachine",
+      title: "沖縄古着屋タイムマシン",
+      image: "../IMG/沖縄フィード/沖縄古着屋タイムマシン.png",
+      tags: ["古着屋", "南部"],
+      map: "https://www.google.com/maps/search/?api=1&query=沖縄古着屋タイムマシン"
+    },
+    {
+      id: "avcs",
+      title: "akabanavintageclothingstore沖縄",
+      image: "../IMG/沖縄フィード/akabana.png",
+      tags: ["古着屋", "中部"],
+      map: "https://www.google.com/maps/search/?api=1&query=akabanavintageclothingstore沖縄"
+    },
+    {
+      id: "cyclone",
+      title: "沖縄古着屋サイクロン",
+      image: "../IMG/沖縄フィード/沖縄古着屋サイクロン.png",
+      tags: ["古着屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=沖縄古着屋サイクロン"
+    },
+    {
+      id: "bulico",
+      title: "ブリコルール沖縄古着",
+      image: "../IMG/沖縄フィード/ブリコルール.png",
+      tags: ["古着屋", "カフェ", "南部", "アメリカン"],
+      map: "https://www.google.com/maps/search/?api=1&query=ブリコルール沖縄古着"
+    },
+    {
+      id: "jaBBer",
+      title: "jaBBer沖縄国際通り店",
+      image: "../IMG/沖縄フィード/jaBBer.png",
+      tags: ["古着屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=jaBBer沖縄国際通り店"
+    },
+    {
+      id: "fishball",
+      title: "フィッシュボール沖縄古着",
+      image: "../IMG/沖縄フィード/フィッシュボール.png",
+      tags: ["古着屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=フィッシュボール沖縄古着"
+    },
+    {
+      id: "ov",
+      title: "OKINAWAVINTAGE松尾2丁目22−20",
+      image: "../IMG/沖縄フィード/ov.png",
+      tags: ["古着屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=OKINAWAVINTAGE松尾2丁目22−20"
+    },
+    {
+      id: "aina",
+      title: "無人古着屋アイナ沖縄",
+      image: "../IMG/沖縄フィード/アイナ.png",
+      tags: ["古着屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=無人古着屋アイナ沖縄"
+    },
+    {
+      id: "fhc",
+      title: "FLATHEADSCREW〒900-0023沖縄県那覇市楚辺２丁目１２−２",
+      image: "../IMG/沖縄フィード/FLATHEADSCREW.png",
+      tags: ["古着屋", "国際通り周辺"],
+      map: "https://www.google.com/maps/search/?api=1&query=FLATHEADSCREW〒900-0023沖縄県那覇市楚辺２丁目１２−２"
+    },
+    {
+      id: "fal",
+      title: "古着屋FAL",
+      image: "../IMG/沖縄フィード/古着屋FAL.png",
+      tags: ["古着屋", "南部"],
+      map: "https://www.google.com/maps/search/?api=1&query=古着屋FAL"
+    },
+    {
+      id: "ashibina",
+      title: "沖縄アウトレットモールあしびなー",
+      image: "../IMG/沖縄フィード/あしびなー.png",
+      tags: ["ショッピング", "南部"],
+      map: "https://www.google.com/maps/search/?api=1&query=沖縄アウトレットモールあしびなー"
+    },
+    {
+      id: "raikamu",
+      title: "イオンモール沖縄ライカム",
+      image: "../IMG/沖縄フィード/ライカム.png",
+      tags: ["ショッピング", "中部"],
+      map: "https://www.google.com/maps/search/?api=1&query=イオンモール沖縄ライカム"
+    },
+    {
+      id: "pizzahousejr",
+      title: "ピザハウスジュニア",
+      image: "../IMG/沖縄フィード/ピザハウスジュニア.png",
+      tags: ["メキシカン", "南部", "アメリカン"],
+      map: "https://www.google.com/maps/search/?api=1&query=ピザハウスジュニア"
+    },
+    {
+      id: "tamaya",
+      title: "そば処玉家そば南城市大里古堅",
+      image: "../IMG/沖縄フィード/玉屋そば.png",
+      tags: ["沖縄そば", "南部"],
+      map: "https://www.google.com/maps/search/?api=1&query=そば処玉家そば南城市大里古堅"
+    }
   ];
   
