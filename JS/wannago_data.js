@@ -697,6 +697,13 @@ const wannagoSpots = [
       image: "../IMG/沖縄フィード/沖縄そば玉家.png",
       tags: ["沖縄そば", "南部"],
       map: "https://www.google.com/maps/search/?api=1&query=そば処玉家そば南城市大里古堅"
+    },
+    {
+      id: "BEK",
+      title: "BlueEntranceKitchen沖縄総本店",
+      image: "../IMG/沖縄フィード/BEK.png",
+      tags: ["メキシカン", "中部"],
+      map: "https://www.google.com/maps/search/?api=1&query=BlueEntranceKitchen沖縄総本店"
     }
   ];
   
